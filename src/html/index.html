@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Navbar -->
+    {{> (config config.partials.navbar)
+        configClassList=config.classes.navbar
+        classList="" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <section class="container {{ config.classes.content }}">
+        <!-- Page Content Goes Here -->            
+        
+        <!-- Hero-->
+        {{> home/hero }}
+        <!-- / Hero-->
+
+        <!-- / About-->
+        {{> home/about }}
+        <!-- / About-->
+
+        <!-- My Portfolio-->
+        {{> home/portfolio }}
+        <!-- / My Portfolio-->
+
+        <!-- Experience -->
+        {{> home/experience }}
+        <!-- / Experience -->
+
+        <!-- Skills -->
+        {{> home/skills }}
+        <!-- /Skills-->
+
+        <!-- Testimonials -->
+        {{> home/testimonials }}
+        <!-- /Testimonials-->        
+
+        <!-- /Page Content -->
+    </section>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

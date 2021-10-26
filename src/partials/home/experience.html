@@ -1,0 +1,25 @@
+<div class="py-8 experience">
+    {{> 
+        content/subtitle 
+        title-script="My"
+        title="Experience"
+        doodle-width="f-w-60"
+    }}
+    {{#if (config experience)}}
+        <div class="row gx-10 gy-5">
+            {{#each experience.entries}}
+                <!-- Single Skill-->
+                <div class="col-12 col-md-6" data-aos="reveal-down">
+                    <div class="d-flex align-items-start mb-3 flex-column flex-lg-row align-items-lg-center">
+                        <h4>{{ title }}</h4> <span class="text-muted ms-lg-2">({{ years }})</span>
+                    </div>
+                    <p class="opacity-90">{{ description }}</p>
+                </div>
+                <!-- / Single Skill -->
+            {{/each}}
+        </div>
+    {{/if}}
+    <div class="d-flex justify-content-md-center mt-5 py-1" data-aos="reveal-up">
+        <a href="#" class="btn btn-pseudo">Download My CV</a>
+    </div>
+</div>

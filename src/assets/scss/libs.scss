@@ -1,0 +1,11 @@
+/* 
+* Use this file to import vendor CSS files from your node_modules directory.
+*/
+
+/* AOS */
+$aos-distance: 25px; /* custom AOS animation distance */
+@import '~aos/src/sass/aos.scss';
+
+
+/* Swiper.js */
+@import '~swiper/swiper-bundle.css';

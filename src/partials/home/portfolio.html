@@ -1,0 +1,30 @@
+<div class="py-8 portfolio">
+    {{> 
+        content/subtitle 
+        title-script="My"
+        title="Portfolio"
+        doodle-width="f-w-52"
+    }}
+
+    <div class="portfolio-listing">
+        {{#if (config work)}}
+            {{#each work.entries}}
+                <div 
+                    class="portfolio-item"
+                    data-bs-toggle="modal" 
+                    data-bs-target="#portfolioModal"
+                    data-portfolio-img="{{ img-full }}"
+                    data-portfolio-title="{{ title }}"
+                    data-portfolio-description="{{ description }}"
+                    data-portfolio-client="{{ client }}"
+                    data-portfolio-date="{{ date }}"
+                    data-portfolio-category="{{ category }}"
+                >
+                    <picture class="d-block" data-aos="reveal-left">
+                        <img class="img-fluid" src="{{ img-small }}" alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                </div>
+            {{/each}}
+        {{/if}}
+    </div>
+</div>

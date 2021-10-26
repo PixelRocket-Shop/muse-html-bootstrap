@@ -1,0 +1,34 @@
+<div class="row my-5 my-lg-10 pb-5 g-5">
+    <div class="col-12 col-md-6">
+        <p class="lead tracking-wide" data-aos="fade-left"><span class="display-6 me-2">👋</span> Hello, I’m</p>
+        <h1 class="display-1 mb-4 position-relative d-table">
+            <span class="d-block" data-aos="fade-right" data-aos-delay="250">Ben Lucia</span>
+            <div class="f-w-44 text-muted position-absolute end-n50 top-0 me-n4 d-none d-xl-block" data-aos="fade-in" data-aos-delay="900">
+                {{> svg/svg-arrow-one }}
+            </div>
+            <div class="f-w-24 text-muted position-absolute end-0 top-75 mt-9 me-n5 d-none d-xl-block" data-aos="fade-in" data-aos-delay="900">
+                {{> svg/svg-arrow-two }}
+            </div>
+        </h1>
+        <p class="text-muted lead mb-5" data-aos="fade-left" data-aos-delay="250">Freelance Graphic Designer &<br />
+            Brand Storyteller.</p>
+        <a href="#" class="btn btn-pseudo" data-aos="fade-up" data-aos-delay="600">Download My CV</a>
+    </div>
+    <div class="col-12 col-md-6 position-relative mt-10 mt-md-5 mt-lg-0">
+        <picture class="position-relative z-index-20 d-block" data-aos="fade-left" data-aos-delay="600">
+            <img class="img-fluid" src="{{webRoot}}/assets/images/profile.png" alt="{{ config.defaultImgAlt }}">
+        </picture>
+        <div class="f-w-36 position-absolute z-index-30 top-0 start-0 mt-n6 ms-n3 ms-md-n5 text-warning" data-aos="fade-in" data-aos-delay="1200">
+            {{> svg/svg-doodle-one }}
+        </div>
+        <div class="f-w-36 position-absolute z-index-10 top-0 end-0 mt-n5 text-warning" data-aos="fade-in" data-aos-delay="1200">
+            {{> svg/svg-doodle-two }}
+        </div>
+        <div class="f-w-36 position-absolute z-index-30 bottom-0 start-0 mb-n3 text-danger" data-aos="fade-in" data-aos-delay="1200">
+            {{> svg/svg-doodle-three }}
+        </div>
+        <div class="f-w-20 position-absolute z-index-30 bottom-0 end-0 text-primary" data-aos="fade-in" data-aos-delay="1200">
+            {{> svg/svg-doodle-four }}
+        </div>
+    </div>
+</div>

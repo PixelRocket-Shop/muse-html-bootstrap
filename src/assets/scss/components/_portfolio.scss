@@ -1,0 +1,84 @@
+
+.portfolio-listing {
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+.portfolio-item {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    break-inside: avoid;
+    margin-bottom: 2rem;
+    position: relative;
+    cursor: pointer;
+
+    * {
+        pointer-events: none;
+    }
+}
+
+.portfolio-item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23222124' fill-opacity='0.18'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+    transition: opacity ease-in .3s;
+    opacity: 0;
+    z-index: 2;
+}
+
+.portfolio-item:before {
+    content: "\EE45";
+    color: $white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--theme-font-icon);
+    font-style: var(--theme-font-icon-style);
+    font-size: 2rem;
+    z-index: 5;
+    transition: opacity ease-in .3s, transform ease-in .2s;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.portfolio-item:hover:after {
+    opacity: 1;
+}
+
+.portfolio-item:hover:before {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@include media-breakpoint-up(lg) {    
+    .portfolio-modal-img {
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .portfolio-listing {
+        column-count: 2;
+        column-gap: 1rem;
+    }
+    .portfolio-item {
+        margin-bottom: 1rem;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .portfolio-listing {
+        column-count: 1;
+    }
+}

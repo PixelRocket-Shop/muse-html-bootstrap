@@ -1,0 +1,30 @@
+<!-- Skills Section-->
+<div class="py-8 skills">
+    {{>
+        content/subtitle 
+        title-script="My"
+        title="Skills"
+        doodle-width="f-w-40"
+    }}
+    {{#if (config skills)}}
+        <div class="row gx-10 gy-5">
+            {{#each skills.entries}}
+                <!-- Single Skill-->
+                <div class="col-12 col-md-6" data-aos="reveal-right">
+                    <div class="d-flex align-items-center">
+                        <picture>
+                            <img class="f-h-8" src="{{ logo }}" alt="{{ config.defaultImgAlt }}">
+                        </picture>
+                        <p class="fw-medium ms-3 mb-0">{{ skill }}</p>
+                    </div>
+                    <div class="progress f-h-1 mt-4">
+                        <div class="progress-bar" role="progressbar" style="width: {{ percent }}%"
+                            aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <!-- / Single Skill -->
+            {{/each}}
+        </div>
+    {{/if}}
+</div>
+<!-- /Skills Section-->

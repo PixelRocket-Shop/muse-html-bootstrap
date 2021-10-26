@@ -1,0 +1,25 @@
+/* generic site wide styles*/
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.disable-child-pointer * {
+    pointer-events: none;
+}
+
+.font-script {
+    font-family: var(--theme-font-script);
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+    font-family: var(--theme-font-serif);
+}

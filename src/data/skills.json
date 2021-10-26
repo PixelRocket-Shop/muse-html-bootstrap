@@ -1,0 +1,34 @@
+{
+    "entries": [
+        {
+            "logo": "{{webRoot}}/assets/images/figma.svg",
+            "skill": "Figma",
+            "percent": "75"
+        },
+        {
+            "logo": "{{webRoot}}/assets/images/sketch.svg",
+            "skill": "Sketch",
+            "percent": "95"
+        },
+        {
+            "logo": "{{webRoot}}/assets/images/photoshop.svg",
+            "skill": "Photoshop",
+            "percent": "65"
+        },
+        {
+            "logo": "{{webRoot}}/assets/images/xd.svg",
+            "skill": "XD",
+            "percent": "35"
+        },
+        {
+            "logo": "{{webRoot}}/assets/images/illustrator.svg",
+            "skill": "Illustrator",
+            "percent": "98"
+        },
+        {
+            "logo": "{{webRoot}}/assets/images/indesign.svg",
+            "skill": "Indesign",
+            "percent": "45"
+        }
+    ]
+}

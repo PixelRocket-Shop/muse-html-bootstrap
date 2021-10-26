@@ -1,0 +1,76 @@
+{
+    "entries": [
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-1.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-1.jpg",
+            "title": "Night Party",
+            "description": "Poster illustration created for a club's annual summer party. Also created stickers, logos and various website elements.",
+            "client": "ACME Design Limited",
+            "category": "Illustration"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-2.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-2.jpg",
+            "title": "Skull & Cat",
+            "description": "Custom logo created for a local tatoo artist. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur magna nunc, ut egestas sem egestas non.",
+            "client": "Super 8 Design",
+            "category": "Logo & Branding"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-3.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-3.jpg",
+            "title": "Warrior Skull",
+            "description": "Nulla nec elit eu neque faucibus molestie sed et nulla. Aliquam placerat felis ipsum, non pellentesque tortor ultrices eget. Suspendisse ornare bibendum orci, sit amet aliquet erat faucibus et.",
+            "client": "Waterfall Theatre",
+            "category": "Poster Design"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-4.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-4.jpg",
+            "title": "Halloween",
+            "description": "Donec congue rutrum felis quis vestibulum. Vestibulum dictum libero eu sapien porttitor ultricies. Proin non dolor et nulla blandit vestibulum sed ut purus.",
+            "client": "Tesco",
+            "category": "Advert Design"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-5.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-5.jpg",
+            "title": "Inca Skull",
+            "description": "Phasellus consectetur orci ut ante gravida tempor. Praesent volutpat tincidunt enim sed dictum. Curabitur neque urna, rhoncus id neque luctus, finibus ornare libero.",
+            "client": "Super 8 Design",
+            "category": "Illustration"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-6.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-6.jpg",
+            "title": "Snake Head",
+            "description": "Vestibulum eget lectus odio. Curabitur semper, nisi nec gravida pellentesque, justo risus ultricies leo, sed semper eros nisi ut nisl. Ut nec mattis arcu. Donec eu lobortis leo.",
+            "client": "Petrolhead Designs",
+            "category": "Illustration"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-7.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-7.jpg",
+            "title": "Inca Skull",
+            "description": "Poster illustration created for a club's annual summer party. Also created stickers, logos and various website elements.",
+            "client": "VonHaus Designs",
+            "category": "Illustration"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-8.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-8.jpg",
+            "title": "Happy Cactus",
+            "description": "Sed quis mauris id quam rutrum ullamcorper. Donec faucibus eget elit nec iaculis. Vivamus laoreet consectetur felis at consequat. Sed finibus turpis in nisl molestie, eu dignissim nulla pharetra.",
+            "client": "JD Limited",
+            "category": "Logo & Branding"
+        },
+        {
+            "img-small": "{{webRoot}}/assets/images/portfolio-small-9.jpg",
+            "img-full": "{{webRoot}}/assets/images/portfolio-9.jpg",
+            "title": "Octopus Coffee",
+            "description": "Proin in sem vitae ante efficitur tempor. Nam pellentesque, risus quis pulvinar eleifend, magna massa porttitor dui, mattis vehicula eros erat eu quam. Vivamus vel leo odio.",
+            "client": "Sentry Limited",
+            "category": "Logo & Branding"
+        }
+    ]
+}

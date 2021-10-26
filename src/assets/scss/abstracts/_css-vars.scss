@@ -1,0 +1,32 @@
+:root {
+    /* Bootstrap vars */
+    --bs-font-sans-serif: 'DM Sans', sans-serif;
+    --bs-spacer: #{$spacer};
+    --bs-gutter-width: #{$grid-gutter-width};
+
+    /* Theme vars */
+    --theme-font-serif: 'DM Serif Display', sans-serif;
+    --theme-font-script: 'Homemade Apple', cursive;
+
+    /* Icon font family */
+    --theme-font-icon: 'remixicon';
+    --theme-font-icon-style: 'normal';
+
+    /* Portfolio Modal Image Fixed Height Size */
+    --theme-portfolio-img-height: 600px;
+
+    /* Slideout Menu */
+    --theme-slideout-transition-in: cubic-bezier(0.65, 0.14, 0.14, 0.91);
+    --theme-slideout-transition-out: cubic-bezier(0.98, 0.03, 0.66, 0.9);
+
+    /* theme breakpoints using Bootstrap sass map */
+    @each $breakpoint, $value in $grid-breakpoints {
+        --theme-breakpoint-#{$breakpoint}: #{$value};
+    }
+
+    /* theme max widths using sass map */
+    @each $breakpoint, $value in $container-max-widths {
+        --theme-maxwidth-breakpoint-#{$breakpoint}: #{$value};
+    }
+
+}

@@ -1,0 +1,17 @@
+.page-loaded .btn-swiper {
+    transition: color ease-in .2s;
+}
+
+.btn-swiper:hover {
+    color: $danger;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+    background: $gray-600;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-scrollbar-drag {
+    background: $danger;
+}
