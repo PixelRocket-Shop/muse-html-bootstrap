@@ -6,7 +6,7 @@ The template comes with a custom modal that pulls in the correct image and proje
 
 <strong><a href="https://muse-html-bootstrap.vercel.app/">View Demo</a> | <a href="https://github.com/PixelRocket-Shop/muse-html-bootstrap/archive/main.zip">Download ZIP</a></strong>
 
-![Bootstrap 5 Responsive HTML One-Page Portfolio Template](https://pixelrocket-public-assets.s3.eu-west-2.amazonaws.com/github-assets/Muse-html/homepage.jpg "Muse | Responsive Bootstrap 5 One-Page Portfolio Template")
+![Bootstrap 5 Responsive HTML One-Page Portfolio Template](https://pixelrocket-public-assets.s3.eu-west-2.amazonaws.com/github-assets/muse-html/home.jpg "Muse | Responsive Bootstrap 5 One-Page Portfolio Template")
 
 ## Table of contents
 
