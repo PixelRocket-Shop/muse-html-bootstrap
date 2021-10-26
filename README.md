@@ -4,9 +4,9 @@
 Muse is a one-page responsive HTML Bootstrap 5 template for graphic designers and illustrators to showcase their work.
 The template comes with a custom modal that pulls in the correct image and project description, a custom animated slide-out menu, client testimonials widget, skills widget and experience widget.
 
-<strong><a href="https://sigma-html-bootstrap.vercel.app/">View Demo</a> | <a href="https://github.com/PixelRocket-Shop/sigma-html-bootstrap/archive/main.zip">Download ZIP</a></strong>
+<strong><a href="https://muse-html-bootstrap.vercel.app/">View Demo</a> | <a href="https://github.com/PixelRocket-Shop/muse-html-bootstrap/archive/main.zip">Download ZIP</a></strong>
 
-![Bootstrap 5 Responsive HTML Business Template](https://pixelrocket-public-assets.s3.eu-west-2.amazonaws.com/github-assets/sigma-html/homepage.jpg "Sigma | Responsive Bootstrap 5 Business Template")
+![Bootstrap 5 Responsive HTML One-Page Portfolio Template](https://pixelrocket-public-assets.s3.eu-west-2.amazonaws.com/github-assets/Muse-html/homepage.jpg "Muse | Responsive Bootstrap 5 One-Page Portfolio Template")
 
 ## Table of contents
 
@@ -32,7 +32,7 @@ Most developers will be editing the source code and will also be running Webpack
 
 
 ## Quick Start
-- [Download the latest release](https://github.com/PixelRocket-Shop/sigma-html-bootstrap/archive/main.zip) OR clone the repo: `git clone https://github.com/PixelRocket-Shop/sigma-html-bootstrap.git`
+- [Download the latest release](https://github.com/PixelRocket-Shop/muse-html-bootstrap/archive/main.zip) OR clone the repo: `git clone https://github.com/PixelRocket-Shop/muse-html-bootstrap.git`
 - Install Node.js if you don't already have it on your system.
 - Open the project root in your command line.
 - run `npm install` in your command line.
@@ -49,7 +49,7 @@ To keep code repetition to a minimum, we've used Handlebars.js as the templating
 
 
 ## Demo Link
-[Demo URL](https://sigma-html-bootstrap.vercel.app/)
+[Demo URL](https://muse-html-bootstrap.vercel.app/)
 
 **Please note that this is an HTML template only. It does not connect to a database, and will not automatically work in a content management system (Wordpress etc). You will need to incorporate our code into your application.**
 
